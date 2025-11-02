@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./ATTENDENCE_CODE   # 👈 this is key
+        working-directory: ./myenv   # 👈 this is key
 
     steps:
       - name: Checkout code
