@@ -1,0 +1,6 @@
+pip install pandas openpyxl xlsxwriter
+python attendance_to_match_sample.py \
+  --attendance cleaned_attendance.xlsx \
+  --names Names.xlsx \
+  --sample Sample.xlsx \
+  --output Output_like_Sample.xlsx
