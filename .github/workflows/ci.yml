@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./helloproject   # 👈 this is key
+        working-directory: ./ATTENDENCE_CODE   # 👈 this is key
 
     steps:
       - name: Checkout code
